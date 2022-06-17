@@ -31,14 +31,4 @@ function insert(task) {
 }
 
 
-/*
-function insert(project) {
-  return db('projects')
-    .insert(project)
-    .then(ids => {
-      return getById(ids[0]);
-    })
-}
-*/
-
 module.exports = { getAll, insert };
